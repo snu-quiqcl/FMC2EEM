@@ -1,0 +1,104 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : fmc_db.brd                                    )
+(    Software Version : 23.1S002                                      )
+(    Date/Time        : Thu Mar 21 21:02:45 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Thu Mar 21 21:02:45 2024				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'C:/Jeonghyun/Lab/RFSoC_FMC/allegro/fmc_db.brd'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/SPB_DATA/cdssetup/OrCAD_Capture/23.1.0/downloaded_parts/allegropcb 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           C:/Jeonghyun/Lab/AD9910_Enclosure/ProfilePCB 
+           C:/SPB_DATA/cdssetup/OrCAD_Capture/23.1.0/downloaded_parts/allegropcb 
+
+
+------ Pad Stack Refresh Messages ------
+
+'VIABGA'  pad stack refresh starting.
+
+     'VIABGA'  pad stack refreshed successfully.
+     
+'126RD228'  pad stack refresh starting.
+
+     '126RD228'  pad stack refreshed successfully.
+     
+'NP_HOLE52'  pad stack refresh starting.
+
+     'NP_HOLE52'  pad stack refreshed successfully.
+     
+'EX50Y50D50P'  pad stack refresh starting.
+
+     'EX50Y50D50P'  pad stack refreshed successfully.
+     
+'C100_H200'  pad stack refresh starting.
+
+     'C100_H200'  pad stack refreshed successfully.
+     
+'S225_H150'  pad stack refresh starting.
+
+     'S225_H150'  pad stack refreshed successfully.
+     
+'C240_H160'  pad stack refresh starting.
+
+     'C240_H160'  pad stack refreshed successfully.
+     
+'C165_H110'  pad stack refresh starting.
+
+     'C165_H110'  pad stack refreshed successfully.
+     
+'S165_H110'  pad stack refresh starting.
+
+     'S165_H110'  pad stack refreshed successfully.
+     
+'024RD'  pad stack refresh starting.
+
+     '024RD'  pad stack refreshed successfully.
+     
+'EX45Y45D0T'  pad stack refresh starting.
+
+     'EX45Y45D0T'  pad stack refreshed successfully.
+     
+'R50_47_5'  pad stack refresh starting.
+
+     'R50_47_5'  pad stack refreshed successfully.
+     
+'R315_100'  pad stack refresh starting.
+
+     'R315_100'  pad stack refreshed successfully.
+     
+'R152_5_65'  pad stack refresh starting.
+
+     'R152_5_65'  pad stack refreshed successfully.
+     
+'R147_5_45'  pad stack refresh starting.
+
+     'R147_5_45'  pad stack refreshed successfully.
+     
+'R62_60'  pad stack refresh starting.
+
+     'R62_60'  pad stack refreshed successfully.
+     
+WARNING(SPMHNI-253): Unable to find pad stack, 'VIABFA', in directory search path.
+
+WARNING(SPMHNI-286): Completed refreshing all pad stacks successfully. Warnings detected.

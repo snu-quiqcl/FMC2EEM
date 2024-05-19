@@ -1,0 +1,16 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DRILL LEGEND                                                     )
+(                                                                     )
+(    Drawing          : fmc_db.brd                                    )
+(    Software Version : 23.1S003                                      )
+(    Date/Time        : Wed May 15 13:36:31 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Begin processing of drill legend template file 'c:/cadence/orcadx_23.1/share/pcb/text/nclegend/default-mm.dlt' ...
+WARNING(SPMHSK-47): Column type 'HoleSize' does not exist.
+WARNING(SPMHSK-47): Column type 'PlateStatus' does not exist.
+End of drill legend template file processing.
+Drill Legend command cancelled.

@@ -1,0 +1,163 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : fmc_db.brd                                    )
+(    Software Version : 23.1S003                                      )
+(    Date/Time        : Sat May  4 21:33:23 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+<< Dangling Lines >>  - Location marked with a star (*) is dangling.
+  Net                 Layer                  Length       Location
+  ------------------------------------------------------------------------------------------
+  LA25_P               L6                    0.0001      (31.7500 26.6700) to *(31.7500 26.6701)
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  12V0                 VIABGA               (3.9920 53.4387) TOP/BOTTOM 
+  12V0                 VIABGA               (3.9920 55.9787) TOP/BOTTOM 
+  12V0                 VIABGA               (96.7740 62.2300) TOP/BOTTOM 
+  12V0                 VIABGA               (96.7740 62.8650) TOP/BOTTOM 
+  12V0                 VIABGA               (107.3150 62.8650) TOP/BOTTOM 
+  12V0                 VIABGA               (108.5850 62.8650) TOP/BOTTOM 
+  3V3                  VIABGA               (3.9920 58.5187) TOP/BOTTOM 
+  3V3                  VIABGA               (5.2620 54.7087) TOP/BOTTOM 
+  3V3                  VIABGA               (5.2620 57.2487) TOP/BOTTOM 
+  3V3                  VIABGA               (5.2620 59.7887) TOP/BOTTOM 
+  3V3                  VIABGA               (39.1160 64.0080) TOP/BOTTOM 
+  3V3                  VIABGA               (40.3860 64.0080) TOP/BOTTOM 
+  3V3                  VIABGA               (57.4040 64.0080) TOP/BOTTOM 
+  3V3                  VIABGA               (58.6740 64.0080) TOP/BOTTOM 
+  3V3                  VIABGA               (75.9460 64.0080) TOP/BOTTOM 
+  3V3                  VIABGA               (77.4700 64.0080) TOP/BOTTOM 
+  3V3                  VIABGA               (81.7880 64.0080) TOP/BOTTOM 
+  3V3                  VIABGA               (93.4720 64.0080) TOP/BOTTOM 
+  3V3                  VIABGA               (96.7740 65.4050) TOP/BOTTOM 
+  3V3                  VIABGA               (96.7740 66.0400) TOP/BOTTOM 
+  3V3                  VIABGA               (99.5680 20.4355) TOP/BOTTOM 
+  3V3                  VIABGA               (99.8220 27.4320) TOP/BOTTOM 
+  3V3                  VIABGA               (101.4615 20.4355) TOP/BOTTOM 
+  3V3                  VIABGA               (102.6160 20.4355) TOP/BOTTOM 
+  3V3                  VIABGA               (105.8100 34.4360) TOP/BOTTOM 
+  3V3                  VIABGA               (106.6685 38.1115) TOP/BOTTOM 
+  3V3                  VIABGA               (106.9340 25.4000) TOP/BOTTOM 
+  3V3                  VIABGA               (106.9340 26.4160) TOP/BOTTOM 
+  3V3                  VIABGA               (107.3150 65.4050) TOP/BOTTOM 
+  3V3                  VIABGA               (108.2040 20.0660) TOP/BOTTOM 
+  3V3                  VIABGA               (108.4620 34.6670) TOP/BOTTOM 
+  3V3                  VIABGA               (108.4620 36.3220) TOP/BOTTOM 
+  3V3                  VIABGA               (108.5850 65.4050) TOP/BOTTOM 
+  3V3                  VIABGA               (108.7160 41.4060) TOP/BOTTOM 
+  3V3                  VIABGA               (108.7160 43.9460) TOP/BOTTOM 
+  3V3                  VIABGA               (108.7160 46.4860) TOP/BOTTOM 
+  3V3                  VIABGA               (108.7160 49.0260) TOP/BOTTOM 
+  3V3                  VIABGA               (108.7160 51.5660) TOP/BOTTOM 
+  3V3                  VIABGA               (108.7160 54.1060) TOP/BOTTOM 
+  3V3                  VIABGA               (108.7160 56.6460) TOP/BOTTOM 
+  3V3                  VIABGA               (108.7160 59.1860) TOP/BOTTOM 
+  3V3                  VIABGA               (108.9660 20.0660) TOP/BOTTOM 
+  3V3                  VIABGA               (108.9660 39.1160) TOP/BOTTOM 
+  GPIO01               VIABGA               (105.6640 36.8300) TOP/BOTTOM 
+  GPIO02               VIABGA               (104.6480 36.8300) TOP/BOTTOM 
+  GPIO03               VIABGA               (103.6320 36.8300) TOP/BOTTOM 
+  GPIO04               VIABGA               (102.6039 36.8326) TOP/BOTTOM 
+  LA00_N_CC            VIABGA               (9.0720 17.8787) TOP/BOTTOM 
+  LA00_N_CC            VIABGA               (107.1369 14.2016) TOP/BOTTOM 
+  LA00_P_CC            VIABGA               (9.0720 16.6087) TOP/BOTTOM 
+  LA00_P_CC            VIABGA               (106.2231 14.2016) TOP/BOTTOM 
+  LA01_N_CC            VIABGA               (5.2620 20.4187) TOP/BOTTOM 
+  LA01_P_CC            VIABGA               (5.2620 19.1487) TOP/BOTTOM 
+  LA02_N               VIABGA               (10.3420 19.1487) TOP/BOTTOM 
+  LA02_N               VIABGA               (103.6831 14.2270) TOP/BOTTOM 
+  LA02_P               VIABGA               (10.3420 17.8787) TOP/BOTTOM 
+  LA02_P               VIABGA               (104.5969 14.2270) TOP/BOTTOM 
+  LA03_N               VIABGA               (9.0720 21.6887) TOP/BOTTOM 
+  LA03_P               VIABGA               (9.0720 20.4187) TOP/BOTTOM 
+  LA04_N               VIABGA               (10.3420 22.9587) TOP/BOTTOM 
+  LA04_P               VIABGA               (10.3420 21.6887) TOP/BOTTOM 
+  LA05_N               VIABGA               (5.2620 24.2287) TOP/BOTTOM 
+  LA05_P               VIABGA               (5.2620 22.9587) TOP/BOTTOM 
+  LA06_N               VIABGA               (3.9920 22.9587) TOP/BOTTOM 
+  LA06_P               VIABGA               (3.9920 21.6887) TOP/BOTTOM 
+  LA07_N               VIABGA               (10.3420 26.7687) TOP/BOTTOM 
+  LA07_P               VIABGA               (10.3420 25.4987) TOP/BOTTOM 
+  LA08_N               VIABGA               (9.0720 25.4987) TOP/BOTTOM 
+  LA08_P               VIABGA               (9.0720 24.2287) TOP/BOTTOM 
+  LA09_N               VIABGA               (5.2620 28.0387) TOP/BOTTOM 
+  LA09_P               VIABGA               (5.2620 26.7687) TOP/BOTTOM 
+  LA10_N               VIABGA               (3.9920 28.0387) TOP/BOTTOM 
+  LA10_P               VIABGA               (3.9920 26.7687) TOP/BOTTOM 
+  LA11_N               VIABGA               (10.3420 30.5787) TOP/BOTTOM 
+  LA11_P               VIABGA               (10.3420 29.3087) TOP/BOTTOM 
+  LA12_N               VIABGA               (9.0720 29.3087) TOP/BOTTOM 
+  LA12_P               VIABGA               (9.0720 28.0387) TOP/BOTTOM 
+  LA13_N               VIABGA               (5.2620 31.8487) TOP/BOTTOM 
+  LA13_P               VIABGA               (5.2620 30.5787) TOP/BOTTOM 
+  LA14_N               VIABGA               (3.9920 33.1187) TOP/BOTTOM 
+  LA14_P               VIABGA               (3.9920 31.8487) TOP/BOTTOM 
+  LA15_N               VIABGA               (10.3420 34.3887) TOP/BOTTOM 
+  LA15_P               VIABGA               (10.3420 33.1187) TOP/BOTTOM 
+  LA16_N               VIABGA               (9.0720 33.1187) TOP/BOTTOM 
+  LA16_P               VIABGA               (9.0720 31.8487) TOP/BOTTOM 
+  LA17_N_CC            VIABGA               (5.2620 35.6587) TOP/BOTTOM 
+  LA17_P_CC            VIABGA               (5.2620 34.3887) TOP/BOTTOM 
+  LA18_N_CC            VIABGA               (3.9920 38.1987) TOP/BOTTOM 
+  LA18_P_CC            VIABGA               (3.9920 36.9287) TOP/BOTTOM 
+  LA19_N               VIABGA               (10.3420 38.1987) TOP/BOTTOM 
+  LA19_P               VIABGA               (10.3420 36.9287) TOP/BOTTOM 
+  LA20_N               VIABGA               (9.0720 36.9287) TOP/BOTTOM 
+  LA20_P               VIABGA               (9.0720 35.6587) TOP/BOTTOM 
+  LA21_N               VIABGA               (10.3420 42.0087) TOP/BOTTOM 
+  LA21_P               VIABGA               (10.3420 40.7387) TOP/BOTTOM 
+  LA22_N               VIABGA               (9.0720 40.7387) TOP/BOTTOM 
+  LA22_P               VIABGA               (9.0720 39.4687) TOP/BOTTOM 
+  LA23_N               VIABGA               (5.2620 39.4687) TOP/BOTTOM 
+  LA23_P               VIABGA               (5.2620 38.1987) TOP/BOTTOM 
+  LA24_N               VIABGA               (10.3420 45.8187) TOP/BOTTOM 
+  LA24_P               VIABGA               (10.3420 44.5487) TOP/BOTTOM 
+  LA25_N               VIABGA               (9.0720 44.5487) TOP/BOTTOM 
+  LA25_P               VIABGA               (9.0720 43.2787) TOP/BOTTOM 
+  LA26_N               VIABGA               (5.2620 43.2787) TOP/BOTTOM 
+  LA26_P               VIABGA               (5.2620 42.0087) TOP/BOTTOM 
+  LA27_N               VIABGA               (3.9920 43.2787) TOP/BOTTOM 
+  LA27_P               VIABGA               (3.9920 42.0087) TOP/BOTTOM 
+  LA28_N               VIABGA               (10.3420 49.6287) TOP/BOTTOM 
+  LA28_P               VIABGA               (10.3420 48.3587) TOP/BOTTOM 
+  LA29_N               VIABGA               (9.0720 48.3587) TOP/BOTTOM 
+  LA29_P               VIABGA               (9.0720 47.0887) TOP/BOTTOM 
+  LA30_N               VIABGA               (10.3420 53.4387) TOP/BOTTOM 
+  LA30_P               VIABGA               (10.3420 52.1687) TOP/BOTTOM 
+  LA31_N               VIABGA               (9.0720 52.1687) TOP/BOTTOM 
+  LA31_P               VIABGA               (9.0720 50.8987) TOP/BOTTOM 
+  LA32_N               VIABGA               (10.3420 57.2487) TOP/BOTTOM 
+  LA32_P               VIABGA               (10.3420 55.9787) TOP/BOTTOM 
+  LA33_N               VIABGA               (9.0720 55.9787) TOP/BOTTOM 
+  LA33_P               VIABGA               (9.0720 54.7087) TOP/BOTTOM 
+  N199364              VIABGA               (98.5520 23.1140) TOP/BOTTOM 
+  N199364              VIABGA               (107.1880 19.0500) TOP/BOTTOM 
+  SCL                  VIABGA               (102.1080 26.4160) TOP/BOTTOM 
+  SCL                  VIABGA               (108.7120 30.9880) TOP/BOTTOM 
+  SDA                  VIABGA               (105.1560 28.1940) TOP/BOTTOM 
+  SDA                  VIABGA               (108.7120 30.2260) TOP/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:       1
+  Total dangling vias:        0
+  Total antenna vias:       125

@@ -1,0 +1,537 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [
+		{
+			"Name" : "LA06_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la06_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR6"
+		},
+		{
+			"Name" : "LA06_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la06_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR6"
+		},
+		{
+			"Name" : "LA10_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la10_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR10"
+		},
+		{
+			"Name" : "LA10_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la10_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR10"
+		},
+		{
+			"Name" : "LA14_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la14_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR14"
+		},
+		{
+			"Name" : "LA14_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la14_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR14"
+		},
+		{
+			"Name" : "LA18_P_CC",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la18_p_cc",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR18"
+		},
+		{
+			"Name" : "LA18_N_CC",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la18_n_cc",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR18"
+		},
+		{
+			"Name" : "LA27_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la27_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR27"
+		},
+		{
+			"Name" : "LA27_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la27_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR27"
+		},
+		{
+			"Name" : "LA02_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la02_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR2"
+		},
+		{
+			"Name" : "LA00_P_CC",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la00_p_cc",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR0"
+		},
+		{
+			"Name" : "LA00_N_CC",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la00_n_cc",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR0"
+		},
+		{
+			"Name" : "LA03_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la03_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR3"
+		},
+		{
+			"Name" : "LA03_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la03_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR3"
+		},
+		{
+			"Name" : "LA08_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la08_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR8"
+		},
+		{
+			"Name" : "LA08_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la08_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR8"
+		},
+		{
+			"Name" : "LA12_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la12_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR12"
+		},
+		{
+			"Name" : "LA12_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la12_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR12"
+		},
+		{
+			"Name" : "LA16_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la16_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR16"
+		},
+		{
+			"Name" : "LA16_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la16_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR16"
+		},
+		{
+			"Name" : "LA20_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la20_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR20"
+		},
+		{
+			"Name" : "LA20_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la20_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR20"
+		},
+		{
+			"Name" : "LA22_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la22_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR22"
+		},
+		{
+			"Name" : "LA22_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la22_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR22"
+		},
+		{
+			"Name" : "LA25_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la25_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR25"
+		},
+		{
+			"Name" : "LA25_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la25_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR25"
+		},
+		{
+			"Name" : "GND",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):gnd",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "0.508 MM"
+		},
+		{
+			"Name" : "GND",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):gnd",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "0.508 MM"
+		},
+		{
+			"Name" : "LA29_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la29_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR29"
+		},
+		{
+			"Name" : "LA29_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la29_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR29"
+		},
+		{
+			"Name" : "LA31_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la31_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR31"
+		},
+		{
+			"Name" : "LA31_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la31_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR31"
+		},
+		{
+			"Name" : "LA33_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la33_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR33"
+		},
+		{
+			"Name" : "LA33_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la33_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR33"
+		},
+		{
+			"Name" : "LA19_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la19_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR19"
+		},
+		{
+			"Name" : "LA11_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la11_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR11"
+		},
+		{
+			"Name" : "LA32_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la32_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR32"
+		},
+		{
+			"Name" : "LA15_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la15_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR15"
+		},
+		{
+			"Name" : "LA28_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la28_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR28"
+		},
+		{
+			"Name" : "LA30_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la30_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR30"
+		},
+		{
+			"Name" : "LA11_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la11_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR11"
+		},
+		{
+			"Name" : "LA07_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la07_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR7"
+		},
+		{
+			"Name" : "LA32_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la32_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR32"
+		},
+		{
+			"Name" : "LA04_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la04_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR4"
+		},
+		{
+			"Name" : "LA19_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la19_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR19"
+		},
+		{
+			"Name" : "LA24_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la24_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR24"
+		},
+		{
+			"Name" : "LA15_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la15_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR15"
+		},
+		{
+			"Name" : "LA04_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la04_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR4"
+		},
+		{
+			"Name" : "LA21_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la21_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR21"
+		},
+		{
+			"Name" : "LA24_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la24_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR24"
+		},
+		{
+			"Name" : "LA21_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la21_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR21"
+		},
+		{
+			"Name" : "LA30_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la30_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR30"
+		},
+		{
+			"Name" : "LA28_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la28_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR28"
+		},
+		{
+			"Name" : "LA02_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la02_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR2"
+		},
+		{
+			"Name" : "LA07_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la07_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR7"
+		},
+		{
+			"Name" : "3V3",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):\\3v3\\",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "0.508 MM"
+		},
+		{
+			"Name" : "3V3",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):\\3v3\\",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "0.508 MM"
+		},
+		{
+			"Name" : "12V0",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):\\12v0\\",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "0.508 MM"
+		},
+		{
+			"Name" : "12V0",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):\\12v0\\",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "0.508 MM"
+		},
+		{
+			"Name" : "LA01_P_CC",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la01_p_cc",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR1"
+		},
+		{
+			"Name" : "LA01_N_CC",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la01_n_cc",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR1"
+		},
+		{
+			"Name" : "LA05_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la05_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR5"
+		},
+		{
+			"Name" : "LA05_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la05_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR5"
+		},
+		{
+			"Name" : "LA09_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la09_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR9"
+		},
+		{
+			"Name" : "LA09_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la09_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR9"
+		},
+		{
+			"Name" : "LA13_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la13_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR13"
+		},
+		{
+			"Name" : "LA13_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la13_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR13"
+		},
+		{
+			"Name" : "LA17_P_CC",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la17_p_cc",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR17"
+		},
+		{
+			"Name" : "LA17_N_CC",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la17_n_cc",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR17"
+		},
+		{
+			"Name" : "LA23_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la23_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR23"
+		},
+		{
+			"Name" : "LA23_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la23_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR23"
+		},
+		{
+			"Name" : "LA26_P",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la26_p",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR26"
+		},
+		{
+			"Name" : "LA26_N",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):la26_n",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR26"
+		}
+	],
+	"Pin Property" : [],
+	"Component" : [],
+	"Net" : [],
+	"Connection" : [
+		{
+			"Name" : "J16.H2",
+			"C_PATH" : "@fmc_db.fmc_top(sch_1):ins209934@\\sam8730-nd\\.\\asp-134488-01f.normal\\(sch_1):H2",
+			"Logical" : "GND",
+			"Physical" : "NC"
+		}
+	]
+}

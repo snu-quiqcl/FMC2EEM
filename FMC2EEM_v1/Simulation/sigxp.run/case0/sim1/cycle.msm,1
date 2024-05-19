@@ -1,0 +1,73 @@
+(CycleMeasurements 
+ ("DESIGN.IO1.1" 
+  (BasicData 
+   (vlohi 0.8 ) 
+   (vhilo 2 ) 
+   (tldelay 0 ) 
+   (vinit 2.54996 ) ) 
+  (Cycles 
+   (1 
+    (Fall 
+     (EarliestSwitch 
+      (volt 2 ) 
+      (time 1.01735e-08 ) ) 
+     (FirstSwitch 
+      (volt 0.8 ) 
+      (time 1.04241e-08 ) ) 
+     (MinMaxEvents 
+      (maximum 
+       (volt 0.0893685 ) 
+       (time 1.83973e-08 ) ) 
+      (minimum 
+       (volt -0.0174737 ) 
+       (time 2.6681e-08 ) ) ) ) 
+    (Rise 
+     (EarliestSwitch 
+      (volt 0.8 ) 
+      (time 4.05118e-08 ) ) 
+     (FirstSwitch 
+      (volt 2 ) 
+      (time 4.07882e-08 ) ) 
+     (MinMaxEvents 
+      (maximum 
+       (volt 2.55327 ) 
+       (time 4.21627e-08 ) ) 
+      (minimum 
+       (volt 2.3582 ) 
+       (time 4.88895e-08 ) ) ) ) ) ) ) 
+ ("DESIGN.IN1.1" 
+  (BasicData 
+   (vlohi 0.8 ) 
+   (vhilo 2 ) 
+   (tldelay 4e-09 ) 
+   (vinit 2.54996 ) ) 
+  (Cycles 
+   (1 
+    (Fall 
+     (EarliestSwitch 
+      (volt 2 ) 
+      (time 1.42399e-08 ) ) 
+     (FirstSwitch 
+      (volt 0.8 ) 
+      (time 1.4508e-08 ) ) 
+     (MinMaxEvents 
+      (maximum 
+       (volt 0.0211982 ) 
+       (time 3.06879e-08 ) ) 
+      (minimum 
+       (volt -0.252268 ) 
+       (time 2.24409e-08 ) ) ) ) 
+    (Rise 
+     (EarliestSwitch 
+      (volt 0.8 ) 
+      (time 4.45798e-08 ) ) 
+     (FirstSwitch 
+      (volt 2 ) 
+      (time 4.48673e-08 ) ) 
+     (MinMaxEvents 
+      (maximum 
+       (volt 2.71148 ) 
+       (time 5.28661e-08 ) ) 
+      (minimum 
+       (volt 2.546 ) 
+       (time 5.3285e-08 ) ) ) ) ) ) ) ) 

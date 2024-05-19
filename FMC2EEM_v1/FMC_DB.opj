@@ -1,0 +1,309 @@
+(ExpressProject "FMC_DB"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1 S003 (4178961)  [3/6/2024]-[05/15/24]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\arg06btc49r9.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\fmc_db.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "TRUE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\fmc_db.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "C:\Jeonghyun\Lab\RFSoC_FMC2\RFSoC_FMC2_BOM.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{Part Number}\t{PCB Footprint}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPart Number\tPCB Footprint")
+    (BOM_Include_File "C:\JEONGHYUN\LAB\RFSOC_FMC\FMC_DB.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "FALSE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "FALSE")
+    (DRC_Check_Off-Page_Connectors_Online "FALSE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "FALSE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "FALSE")
+    (DRC_Check_Missing_Pin_Numbers_Online "FALSE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Simulation_Rules "TRUE")
+    (DRC_Check_Pspice_Model_Lib_Path_Online "TRUE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File "C:\JEONGHYUN\LAB\RFSOC_FMC\FMC_DB.DRC"))
+  (Folder "Layout"
+    (File ".\allegro\fmc_db.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\fmc_db.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\rfsoc_fmc_bom.bom"
+      (Type "Report"))
+    (File ".\fmc_db.drc"
+      (Type "Report"))
+    (File "..\rfsoc_fmc\rfsoc_fmc_bom.bom"
+      (Type "Report"))
+    (File ".\rfsoc_fmc2_bom.bom"
+      (Type "Report"))
+    (File "..\rfsoc_fmc2\rfsoc_fmc2_bom.bom"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile "C:\Jeonghyun\Lab\RFSoC_FMC4\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile "C:\Jeonghyun\Lab\RFSoC_FMC4\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile "C:\Jeonghyun\Lab\RFSoC_FMC4\allegro\eco.txt"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile "C:\Jeonghyun\Lab\RFSoC_FMC4\allegro\genfeed.log"))
+    (File ".\allegro\swp.log"
+      (Type "Log File")
+      (LogFile "c:\jeonghyun\lab\rfsoc_fmc\allegro\swp.log")))
+  (PartMRUSelector
+    (ARG06BTC49R9
+      (FullPartName "ARG06BTC49R9.Normal")
+      (LibraryName "C:\JEONGHYUN\LAB\RFSOC_FMC3\ARG06BTC49R9.OLB")
+      (DeviceIndex "0"))
+    (ASP-134488-01
+      (FullPartName "ASP-134488-01A.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1710659851\ORCADCAPTUREXML\SAM8730-ND.OLB")
+      (DeviceIndex "0"))
+    (TMK105BJ104KV-F
+      (FullPartName "TMK105BJ104KV-F.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1710656231\TMK105BJ104KV-F\CAPTURE\TMK105BJ104KV-F.OLB")
+      (DeviceIndex "0"))
+    (ERJ2RKF49R9X
+      (FullPartName "ERJ2RKF49R9X.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1710655583\ERJ2RKF49R9X\CAPTURE\ERJ2RKF49R9X.OLB")
+      (DeviceIndex "0"))
+    (ERJ2RKF1002X
+      (FullPartName "ERJ2RKF1002X.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1710655117\ERJ2RKF1002X\CAPTURE\ERJ2RKF1002X.OLB")
+      (DeviceIndex "0"))
+    (DS90LV047ATM_NOPB
+      (FullPartName "DS90LV047ATM_NOPB.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1710654631\DS90LV047ATM_NOPB\CAPTURE\DS90LV047ATM_NOPB.OLB")
+      (DeviceIndex "0"))
+    (M20-8751042
+      (FullPartName "M20-8751042.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1710649480\M20-8751042\CAPTURE\M20-8751042.OLB")
+      (DeviceIndex "0"))
+    (RF2-04A-T-00-50-G
+      (FullPartName "RF2-04A-T-00-50-G.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1710646921\ORCADCAPTUREXML\2057-RF2-04A-T-00-50-G-ND.OLB")
+      (DeviceIndex "0"))
+    (N2530-6002-RB
+      (FullPartName "N2530-6002-RB.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1710593474\N2530-6002-RB\CAPTURE\N2530-6002-RB.OLB")
+      (DeviceIndex "0"))
+    (ERJ2RKF4991X
+      (FullPartName "ERJ2RKF4991X.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1710587246\ERJ2RKF4991X\CAPTURE\ERJ2RKF4991X.OLB")
+      (DeviceIndex "0"))
+    (TCA6416APWR
+      (FullPartName "TCA6416APWR.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1710587153\TCA6416APWR\CAPTURE\TCA6416APWR.OLB")
+      (DeviceIndex "0"))
+    (TCA9548APWR
+      (FullPartName "TCA9548APWR.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1710582506\TCA9548APWR\CAPTURE\TCA9548APWR.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ASP-184330-01
+      (FullPartName "ASP-184330-01-2.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SNAPEDA_PART_1710512685\ASP-184330-01.OLB")
+      (DeviceIndex "1")))
+  (MPSSessionName "alexi")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\Jeonghyun\Lab\RFSoC_FMC4\fmc_db.dsn")
+      (Path "Design Resources" "C:\Jeonghyun\Lab\RFSoC_FMC4\fmc_db.dsn"
+         "FMC_TOP")
+      (Path "Design Resources" "Library")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources" "C:\Jeonghyun\Lab\RFSoC_FMC4\fmc_db.dsn"
+         "FMC_TOP" "FMC"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 722"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 740")
+        (Scroll "3088 4740")
+        (Zoom "400")
+        (Occurrence "/"))
+      (Path "C:\JEONGHYUN\LAB\RFSOC_FMC4\FMC_DB.DSN")
+      (Schematic "FMC_TOP")
+      (Page "FMC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 740")
+        (Scroll "301 340")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "C:\JEONGHYUN\LAB\RFSOC_FMC4\FMC_DB.DSN")
+      (Schematic "FMC_TOP")
+      (Page "EEM"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 740")
+        (Scroll "301 536")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "C:\JEONGHYUN\LAB\RFSOC_FMC4\FMC_DB.DSN")
+      (Schematic "FMC_TOP")
+      (Page "IO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 740")
+        (Scroll "-227 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\JEONGHYUN\LAB\RFSOC_FMC4\FMC_DB.DSN")
+      (Schematic "FMC_TOP")
+      (Page "GPIO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 740")
+        (Scroll "-261 -7")
+        (Zoom "93")
+        (Occurrence "/"))
+      (Path "C:\JEONGHYUN\LAB\RFSOC_FMC4\FMC_DB.DSN")
+      (Schematic "FMC_TOP")
+      (Page "I2C")))
+  (ISPCBBASICLICENSE "false"))
