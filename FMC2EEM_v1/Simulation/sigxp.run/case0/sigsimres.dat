@@ -1,4 +1,0 @@
-A!simid!rcvr!cycle!nmhigh!nmhighcycle!nmlow!nmlowcycle!prop!switchhigh!switchlow!settlehigh!settlelow!maxvoltage!maxvoltagecycle!minvoltage!minvoltagecycle!monotonichigh!monotoniclow!glitchrise!glitchfall!steadystate!crosstalk!ssn!ssntimestep!ssnframes!peakemission!peakfrequency!emistatus!setuphigh!setupdataslewhigh!setupclkslewhigh!setupdervalhigh!setuphighcycle!setuplow!setupdataslewlow!setupclkslewlow!setupdervallow!setuplowcycle!holdhigh!holddataslewhigh!holdclkslewhigh!holddervalhigh!holdhighcycle!holdlow!holddataslewlow!holdclkslewlow!holddervallow!holdlowcycle!SNR
-S!sim1!DESIGN IN1 1!1!1.25712!0!0.538916!0!4e-09!!4.35483e-09!!4.51232e-09!!0!-0.727792!0!1!1!1!1!!!!!0!!!0!!!!!0!!!!!0!!!!!0!!!!!0!!
-S!sim1!DESIGN IO1 1!1!1.25711!0!0.384756!0!0!!3.72129e-10!!6.51744e-10!!0!-0.109028!0!1!1!1!1!!!!!0!!!0!!!!!0!!!!!0!!!!!0!!!!!0!!
-S!sim1!iDESIGN IN1 1!1!1.25712!0!0.538916!0!4e-09!!4.35483e-09!!4.51232e-09!!0!-0.727792!0!1!1!1!1!!!!!0!!!0!!!!!0!!!!!0!!!!!0!!!!!0!!
